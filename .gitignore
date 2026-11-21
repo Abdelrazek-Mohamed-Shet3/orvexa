@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Next.js build artifacts
+apps/web/.next/
+apps/web/out/
+apps/web/next-env.d.ts
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# OS & Editor
+.DS_Store
+*.log
+npm-debug.log*
